@@ -1,0 +1,284 @@
+
+body{
+    margin:0px;
+    font-family: "Roboto", sans-serif;
+    
+}
+header{
+    font-family: "Shrikhand", sans-serif;
+}
+.logo{
+    border-bottom: 3px solid rgb(196, 195, 195);
+    box-shadow: 0px 0px 7px 0px rgba(184, 183, 183, 0.794);
+    padding: 15px 0 5px 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    position: relative;
+}
+
+.map{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+   text-align: center;
+   background-color: #97949440;
+   font-size: 15px;
+    
+}
+.paris-belleville{
+    padding-right: 35px;
+    font-size: 15px;
+    font-weight: 600;
+}   
+  
+.texte-1{
+    padding: 0px 56px;
+    margin-top: 7%;
+    text-align: center;
+    font-size: 25px;
+    font-weight:900;
+} 
+
+.texte-2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    margin-block-start: -8px;
+    margin-block-end: 30px;
+    
+}  
+.bouton-0{
+    display: block;
+    margin : auto;
+    font-size: 15px;
+    border:none;
+    padding:16px 25px;
+    border-radius: 25px;
+    background: linear-gradient(to  top left,#9356DC,#FF79DA );
+    color: white;
+    box-shadow: 1px 4px 8px 0px rgb(178, 177, 177);
+}
+.zone-reserver-menu{
+    background-color: whitesmoke;
+    padding-top: 7px;
+    height: 290px;
+    
+}
+.bouton-0:hover {
+    box-shadow:1px 4px 15px 0px grey;
+    background: linear-gradient(to  bottom left,#FF79DA,#9356DC );
+    padding:18px 27px;   
+}
+.fonctionnement{
+    
+    font-size: 1.5em;
+    margin-block-start: 45px;
+    margin-block-end: 0.83em;
+    margin-left: 5%;
+    font-weight: 900;
+}
+.boutons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 15px;
+
+}
+.bouton-1{
+    width: 88%;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    margin-block-end: 30px;
+    gap: 25px;
+    padding:10px;
+    border-radius: 20px;
+    box-shadow:1px 4px 15px 0px rgb(194, 192, 192); 
+    border: none;
+}
+.item1{
+    font-size: 17px;
+    font-weight: bold;
+}
+.bouton-1:hover{
+    background-color: #f2e9fd; 
+    box-shadow:1px 4px 25px 0px rgb(174, 172, 172);
+}
+
+
+    
+
+.chiffre{
+    border: 1px solid black;
+    padding: 4px 8px;
+    background-color: #9356DC;
+    color: white;
+    border:none;
+    border-radius: 25px;
+    align-items: center;
+    margin-left: -25px;
+   
+}
+
+.mobile{
+    font-size: 20px;
+    padding-left: 5px;
+    color: rgb(115, 113, 113);
+}
+.shop{
+    color: #9356DC;
+    font-size:15px ;
+}
+.section1{
+    background-color:#f1f2f2;
+    margin-top: 42px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+.titre-restaurant{
+    margin-left: 25px;
+    margin-bottom: 2px;
+    margin-top: 48px;
+}
+
+.restaurant{
+    box-shadow:1px 4px 25px 0px rgb(174, 172, 172);
+    background-color: white;
+    border-radius:25px;
+    margin: auto;
+    width:88%;
+    height:250px
+   
+
+}
+.nouveau-1{
+    
+  
+    position: absolute;
+    left: 68%;
+    bottom: -51%;
+   
+
+}
+.nouveau-2{
+    position: absolute;
+    left: 70%;
+    bottom: -92%;
+
+}
+.nouveau-txt{
+    text-align: center;
+    border-radius: 0px;
+    font-size: 14px;
+    padding: 7px 13px;
+    background-color:#88d3c2;
+    color: rgb(11, 105, 11);
+}
+.img1{
+   width: 100%;
+   object-fit: cover;
+   object-position: 0px -53px;
+   border-radius:25px 25px 0px 0px;
+   height:180px;
+}
+.img2{
+    width: 100%;
+    object-fit: cover;
+    object-position: 0px -146px;
+    border-radius:25px 25px 0px 0px;
+    height:172px;
+ }
+
+.img3{
+   width: 100%;
+   object-fit: cover;
+   object-position: 0px -55px;
+   border-radius:25px 25px 0px 0px;
+   height:180px;
+}
+.img4{
+    width: 100%;
+    object-fit: cover;
+    object-position: 0px -57px;
+    border-radius:25px 25px 0px 0px;
+    height:180px;
+ }
+.txt-et-icone{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+    
+    
+}
+.txt-1-2{
+    margin-left: 5%;
+}
+.coeur{
+    font-size: 18px;
+    margin-right: 7%;
+    margin-bottom: 7%;
+  
+   
+    
+    
+}
+
+
+.para-1{
+    margin-top: 7px;
+    font-size: 18px;
+    font-weight: 900;
+}
+.para-2{
+    margin-top: -15px;
+    font-size: 17px;
+}
+.footer{
+    background-color: #2e2e2e;
+    padding:2px 0px;
+    color: whitesmoke;
+   
+
+    
+}
+.p1-footer{
+    padding-bottom:6px;
+    font-family: "Shrikhand";
+    font-size: 18px;
+    margin-left: 5%;
+}
+.icone-et-txt-footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5%;
+    gap:10px;
+    font-size: 15px;
+    margin-block-start: -24px;
+    margin-block-end: -1px;
+    
+}
+
+.mention-legal{
+    margin-block-start: -9px;
+    margin-block-end: -1px;
+    font-size: 15px;
+    margin-left: 5%;
+}
+.contact{
+    margin-block-start: 11px;
+    margin-block-end: 28px;
+    font-size: 15px;
+    margin-left: 5%;
+}
+  
